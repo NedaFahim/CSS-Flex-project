@@ -273,7 +273,7 @@ body {
 
 
 .header-bottom {
-    margin-top: 96px;
+    margin-top: 88px;
 }
 
 .header-content {
@@ -335,7 +335,7 @@ body {
 
 
 .main {
-    padding: 48px 0;
+    padding: 96px 0;
 }
 
 .works {
@@ -351,6 +351,8 @@ body {
 .works-title {
     color: #081D43;
     margin-top: 0.8rem;
+    font-family: 'TTNorms Medium';
+    font-weight: normal;
 }
 
 .works-content {
@@ -358,6 +360,7 @@ body {
     margin-bottom: 48px;
     display: flex;
     justify-content: space-around;
+
 }
 
 .works-content-title {
@@ -381,6 +384,76 @@ body {
 .works-img-img {
     width: 100%;
 }
+
+
+.person-comments {
+    background-color: #2F5BEA;
+    padding: 32px 0;
+    text-align: center;
+
+
+}
+
+.person-comments-title {
+    color: #fff;
+    font-family: 'TTNorms Medium';
+    font-weight: normal;
+}
+
+.person-comments-text {
+    color: #fff;
+    font-family: "TTNorms Light";
+}
+
+.comments-container {
+    margin: 56px 0;
+    display: flex;
+
+}
+
+.comment {
+    background-color: #fff;
+    margin: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.comment-content {
+    text-align: left;
+    padding: 24px;
+}
+
+.comment-body {
+    font-family: 'Times Roman Italic';
+    color: #7E8085;
+    line-height: 24px;
+    margin: 0;
+}
+
+.comment-info {
+    display: flex;
+    border-top: 1px solid #EBEBEF;
+    align-items: center;
+    padding: 13px 1.2rem;
+}
+
+.comment-img {}
+
+.comment-person {
+    color: #000;
+    margin-left: 8px;
+    margin: 0 0 0 8px;
+}
+
+
+
+
+
+
+
 
 /* Project Responsive */
 
