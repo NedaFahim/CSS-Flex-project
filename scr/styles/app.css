@@ -406,8 +406,9 @@ body {
 }
 
 .comments-container {
-    margin: 56px 0;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
@@ -418,7 +419,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 200px;
+    min-height: 200px;
+    flex-basis: 288px;
+}
+
+.comments-main-container {
+    max-width: 1040px;
+    margin: 56px auto 0 auto;
+
 }
 
 .comment-content {
@@ -448,7 +456,18 @@ body {
     margin: 0 0 0 8px;
 }
 
+.companies {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
 
+.company {
+    display: block;
+    margin: 1rem;
+}
 
 
 
