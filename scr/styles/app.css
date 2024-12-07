@@ -250,6 +250,12 @@ body {
     border-radius: 5px;
 }
 
+.header-icon {
+    font-size: 29px;
+    display: none;
+    cursor: pointer;
+}
+
 .nav-logo {
     margin-right: 24px;
 }
@@ -261,6 +267,7 @@ body {
     padding-left: 0;
     margin: 0;
     display: flex;
+
 }
 
 .menue__item {}
@@ -578,11 +585,37 @@ body {
     .container {
         max-width: 720px;
     }
+
+    .header-link {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 768px) {
     .container {
         max-width: 540px;
+    }
+
+    .header-icon {
+        display: block;
+    }
+
+    .menue {
+        /* display: none; */
+        position: fixed;
+        top: 0;
+        left: -256px;
+        bottom: 0;
+        width: 256px;
+        background-color: yellow;
+        flex-direction: column;
+        padding: 32px 16px;
+        transition: 0.3s all
+    }
+
+    .menue__item {
+        margin-bottom: 32px;
+        font-size: 19px;
     }
 }
 
