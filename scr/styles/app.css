@@ -558,6 +558,7 @@ body {
 .search-bar {
     border: none;
     outline: none;
+    width: 100%;
 }
 
 .news-text {
@@ -741,5 +742,9 @@ body {
 
     .comment {
         flex-basis: 100%;
+    }
+
+    .search-button {
+        padding: 16px 19px;
     }
 }
